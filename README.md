@@ -27,3 +27,5 @@ Mentees:
 Mentors:
   What languages do you speak?
   -list of options with lots of different languages-
+
+Other stuff: Contact, sign up, mentor directory, mentee requests
