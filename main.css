@@ -1,3 +1,7 @@
+html, body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 h1 {
     font-family: 'Covered By Your Grace', cursive;
 }
@@ -6,28 +10,34 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.navbar-brand {
+.navbar {
+  background-color: transparent;
+  border-color: transparent;
+  transition: 0.5s ease 0s;
+}
+
+.navbar.scrolling {
+  background-color: #326273;
+}
+
+.navbar-default .navbar-brand {
   font-family: 'Covered By Your Grace', cursive;
   font-size: 3rem;
 }
 
-.navbar {
-  background-color: #326273
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li a {
+color: black;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-nav>li a:hover, .navbar-default .navbar-nav>li a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #326273;
+}
+
+.navbar-default.scrolling .navbar-brand, .navbar-default.scrolling .navbar-nav>li a {
 color: white;
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #c8dfe6;
-}
-
-.navbar-default .navbar-nav>li a{
-  color: white;
-}
-
-.navbar-default .navbar-nav>li a:hover, .navbar-default .navbar-nav>li a:focus {
+.navbar-default.scrolling .navbar-nav>li a:hover, .navbar-default.scrolling .navbar-nav>li a:focus, .navbar-default.scrolling .navbar-brand:hover, .navbar-default.scrolling .navbar-brand:focus {
   color: #c8dfe6;
 }
 
