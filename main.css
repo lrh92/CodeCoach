@@ -27,20 +27,22 @@ color: white;
   color: #c8dfe6;
 }
 
-.heading {
-  float: right;
-}
-
 .jumbotron {
   text-align: center;
-  min-height: 50vh;
+  min-height: 100vh;
   background-color: #edf5f3;
   background: url(background.jpg) 50% 0 fixed;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
 .jumbotron h1 {
   font-size: 10rem;
+}
+
+.heading {
+  float: right;
 }
 
 .btn.color-1 {
@@ -52,10 +54,10 @@ color: white;
 }
 
 .btn.color-1:hover, .btn.color-1:focus {
-  background-color: transparent;
-  border: 1px solid #e39774;
+  background-color: #326273;
+  border: 1px solid #326273;
   transition: 0.2s ease 0s;
-  color: #e39774;
+  color: white;
   border-radius: 0;
 }
 
