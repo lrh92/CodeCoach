@@ -33,6 +33,16 @@ color: white;
   background-color: #edf5f3;
 }
 
-.btn.btn-primary.color-1 {
-  background-color: #326273
+.btn.color-1 {
+  background-color: #326273;
+  border: none;
+  transition: 0.2s ease 0s;
+  color: #c8dfe6;
+  border-radius: 0;
+}
+
+.btn.color-1:hover, .btn.color-1:focus {
+  background-color: #e39774;
+  border: none;
+  color: white;
 }
