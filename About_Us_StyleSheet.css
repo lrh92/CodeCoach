@@ -1,6 +1,7 @@
 
 body {
-color: rgb(20, 100, 120)
+	color: rgb(20, 100, 120);
+	background: rgb(255, 250, 245)
 }
 h1 {
 	font-family: 'Righteous', cursive;
