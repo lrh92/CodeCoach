@@ -27,22 +27,36 @@ color: white;
   color: #c8dfe6;
 }
 
+.heading {
+  float: right;
+}
+
 .jumbotron {
   text-align: center;
   min-height: 50vh;
   background-color: #edf5f3;
+  background: url(background.jpg) 50% 0 fixed;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-size: 10rem;
 }
 
 .btn.color-1 {
-  background-color: #326273;
-  border: none;
+  background-color: transparent;
+  border: 1px solid #326273;
   transition: 0.2s ease 0s;
-  color: #c8dfe6;
+  color: #326273;
   border-radius: 0;
 }
 
 .btn.color-1:hover, .btn.color-1:focus {
-  background-color: #e39774;
-  border: none;
-  color: white;
+  background-color: transparent;
+  border: 1px solid #e39774;
+  transition: 0.2s ease 0s;
+  color: #e39774;
+  border-radius: 0;
 }
+
+
