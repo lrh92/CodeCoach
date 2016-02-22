@@ -1,5 +1,9 @@
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
 h1, h2, h3 {
-  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -35,6 +39,7 @@ color: white;
   background-size: cover;
   display: flex;
   align-items: center;
+  margin-bottom: 0px;
 }
 
 .jumbotron h1 {
@@ -51,6 +56,25 @@ span.color-1 {
 
 span.color-2 {
   color: #e39774;
+}
+
+.homepage-section {
+  min-height: 100vh;
+  padding: 51px 0px;
+}
+
+.homepage-section h2 {
+ font-size: 5rem;
+}
+
+.odd {
+  background-color: #326273;
+  color: white;
+}
+
+.even {
+  background-color: white;
+  color: black;
 }
 
 .btn.color-1 {
