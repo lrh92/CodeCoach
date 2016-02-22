@@ -18,6 +18,7 @@ h1, h2, h3 {
 
 .navbar.scrolling {
   background-color: #326273;
+  padding: 1rem 0rem;
 }
 
 .navbar-default .navbar-brand {
