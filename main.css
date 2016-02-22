@@ -45,6 +45,14 @@ color: white;
   float: right;
 }
 
+span.color-1 {
+  color: #326273;
+}
+
+span.color-2 {
+  color: #e39774;
+}
+
 .btn.color-1 {
   background-color: transparent;
   border: 1px solid #326273;
