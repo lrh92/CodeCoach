@@ -1,4 +1,10 @@
 
+body {
+	background: rgb(255, 250, 245)
+}
+.span3 {
+	color: rgb(20, 100, 120);
+}
 h2 {
 	padding-top: 50px;
 	padding-left: 20px;
