@@ -20,3 +20,8 @@ ul {
 	padding-right: 10px;
 	list-style-type: none;
 }
+input[type=text] {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 80%;
+	padding: 0.1em;
+}
