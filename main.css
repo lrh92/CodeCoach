@@ -112,16 +112,22 @@ ul#signup {
 }
 
 .span3 {
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .su {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 16px;
 }
 
-.btn-primary {
-  text-align: center;
+.btn btn-primary {
+  margin: 0 auto;
+  width: 180px;
+  font-size: 16px;
+  height: 75px;
+  width: 75px;
 }
 
 
