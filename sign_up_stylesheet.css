@@ -1,0 +1,38 @@
+.span3 {
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 3rem;
+}
+
+.navbar {
+  background-color: #326273
+}
+
+.navbar-default .navbar-brand {
+color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #c8dfe6;
+}
+
+.navbar-default .navbar-nav>li a{
+  color: white;
+}
+
+.navbar-default .navbar-nav>li a:hover, .navbar-default .navbar-nav>li a:focus {
+  color: #c8dfe6;
+}
+
+.jumbotron {
+  text-align: center;
+  min-height: 50vh;
+  background-color: #edf5f3;
+}
+
+.btn.btn-primary.color-1 {
+  background-color: #326273
+}
