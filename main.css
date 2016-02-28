@@ -114,6 +114,9 @@ ul#signup {
 .span3 {
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 120px;
+  height: 30px;
+  color: black;
 }
 
 .su {
@@ -130,8 +133,19 @@ ul#signup {
   width: 75px;
 }
 
-div#mentors, div#mentees {
+#mentors, #mentees {
   font-size: 22px;
 }
 
+#imgmentees {
+  margin-top: 50px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+#imgmentors {
+  margin-top: 50px;
+  border: 2px solid #326273;
+  border-radius: 20px;
+}
 
