@@ -103,5 +103,25 @@ span.color-2 {
   color: white;
   border-radius: 0;
 }
+form {
+  text-align: center;
+}
+
+ul#signup {
+  list-style-type: none;
+}
+
+.span3 {
+  padding-bottom: 10px;
+}
+
+.su {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  text-align: center;
+}
 
 
