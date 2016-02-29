@@ -173,6 +173,14 @@ color: black;
   width: 100%;
 }
 
+#join a {
+  color: #e39774;
+}
+
+#join a:hover {
+  color: white;
+}
+
 main {
   margin-top: 80px;
   text-align: center;
