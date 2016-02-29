@@ -1,193 +1,208 @@
-html, body {
-  font-family: "Josefin Sans", sans-serif;
+html,
+body {
+    font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
     font-family: 'Covered By Your Grace', cursive;
 }
 
-h1, h2, h3 {
-  text-align: center;
+h1,
+h2,
+h3 {
+    text-align: center;
 }
 
 .navbar {
-  background-color: transparent;
-  border-color: transparent;
-  transition: 0.5s ease 0s;
+    background-color: transparent;
+    border-color: transparent;
+    transition: 0.5s ease 0s;
 }
 
 .navbar.scrolling {
-  background-color: #326273;
-  padding: 1rem 0rem;
-  border-bottom: 1px solid white;
+    background-color: #326273;
+    padding: 1rem 0rem;
+    border-bottom: 1px solid white;
 }
 
 .navbar-default .navbar-brand {
-  font-family: 'Covered By Your Grace', cursive;
-  font-size: 3rem;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 3rem;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav>li a {
-color: black;
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li a {
+    color: black;
 }
 
-.navbar-default .navbar-nav>li a:hover, .navbar-default .navbar-nav>li a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #326273;
+.navbar-default .navbar-nav>li a:hover,
+.navbar-default .navbar-nav>li a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #326273;
 }
 
-.navbar-default.scrolling .navbar-brand, .navbar-default.scrolling .navbar-nav>li a {
-color: white;
+.navbar-default.scrolling .navbar-brand,
+.navbar-default.scrolling .navbar-nav>li a {
+    color: white;
 }
 
-.navbar-default.scrolling .navbar-nav>li a:hover, .navbar-default.scrolling .navbar-nav>li a:focus, .navbar-default.scrolling .navbar-brand:hover, .navbar-default.scrolling .navbar-brand:focus {
-  color: #c8dfe6;
+.navbar-default.scrolling .navbar-nav>li a:hover,
+.navbar-default.scrolling .navbar-nav>li a:focus,
+.navbar-default.scrolling .navbar-brand:hover,
+.navbar-default.scrolling .navbar-brand:focus {
+    color: #c8dfe6;
 }
 
 .jumbotron {
-  text-align: center;
-  min-height: 100vh;
-  background-color: #edf5f3;
-  background: url(images/background.jpg) 50% 0 fixed;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0px;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #edf5f3;
+    background: url(images/background.jpg) 50% 0 fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
 .jumbotron h1 {
-  font-size: 10rem;
+    font-size: 10rem;
 }
 
 .heading {
-  float: right;
+    float: right;
 }
 
 span.color-1 {
-  color: #326273;
+    color: #326273;
 }
 
 span.color-2 {
-  color: #e39774;
+    color: #e39774;
 }
 
 .homepage-section {
-  padding: 100px 0px;
+    padding: 100px 0px;
 }
 
 .homepage-section h2 {
- font-size: 5rem;
+    font-size: 5rem;
 }
 
 .odd {
-  background-color: #326273;
-  color: white;
+    background-color: #326273;
+    color: white;
 }
 
 .even {
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
 }
 
 #about-us {
-  text-align: center;
+    text-align: center;
 }
 
 .btn.color-1 {
-  background-color: transparent;
-  border: 1px solid #326273;
-  transition: 0.2s ease 0s;
-  color: #326273;
-  border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #326273;
+    transition: 0.2s ease 0s;
+    color: #326273;
+    border-radius: 0;
 }
 
-.btn.color-1:hover, .btn.color-1:focus {
-  background-color: #326273;
-  border: 1px solid #326273;
-  transition: 0.2s ease 0s;
-  color: white;
-  border-radius: 0;
+.btn.color-1:hover,
+.btn.color-1:focus {
+    background-color: #326273;
+    border: 1px solid #326273;
+    transition: 0.2s ease 0s;
+    color: white;
+    border-radius: 0;
 }
 
 .btn.color-2 {
-  background-color: transparent;
-  border: 1px solid white;
-  transition: 0.2s ease 0s;
-  color: white;
-  border-radius: 0;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.2s ease 0s;
+    color: white;
+    border-radius: 0;
 }
 
-.btn.color-2:hover, .btn.color-2:focus {
-  background-color: white;
-  border: 1px solid white;
-  transition: 0.2s ease 0s;
-  color: #326273;
-  border-radius: 0;
+.btn.color-2:hover,
+.btn.color-2:focus {
+    background-color: white;
+    border: 1px solid white;
+    transition: 0.2s ease 0s;
+    color: #326273;
+    border-radius: 0;
 }
+
 form {
-  text-align: center;
+    text-align: center;
 }
 
 ul#signup {
-  list-style-type: none;
-  padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .span3 {
-padding-top: 10px;
-padding-bottom: 10px;
-margin: 10px 0;
-width: 100%;
-height: auto;
-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+    color: black;
 }
 
 .su {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
 }
 
 .btn btn-primary {
-  margin: 0 auto;
-  width: 180px;
-  font-size: 16px;
-  height: 75px;
-  width: 75px;
+    margin: 0 auto;
+    width: 180px;
+    font-size: 16px;
+    height: 75px;
+    width: 75px;
 }
 
-#mentors, #mentees {
-  font-size: 22px;
+#mentors,
+#mentees {
+    font-size: 22px;
 }
 
-#imgmentees, #imgcode {
-  margin: 10px;
-  border: 2px solid white;
+#imgmentees,
+#imgcode {
+    margin: 10px;
+    border: 2px solid white;
 }
 
 #imgmentors {
-  margin: 10px;
-  border: 2px solid #326273;
+    margin: 10px;
+    border: 2px solid #326273;
 }
 
 .homepage-images {
-  width: 100%;
+    width: 100%;
 }
 
 #join a {
-  color: #e39774;
+    color: #e39774;
 }
 
 #join a:hover {
-  color: white;
+    color: white;
 }
 
 main {
-  margin-top: 80px;
-  text-align: center;
+    margin-top: 80px;
+    text-align: center;
 }
 
 footer {
-  text-align: center;
-  padding: 10px 0px;
+    text-align: center;
+    padding: 10px 0px;
 }
-
