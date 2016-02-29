@@ -19,6 +19,7 @@ h1, h2, h3 {
 .navbar.scrolling {
   background-color: #326273;
   padding: 1rem 0rem;
+  border-bottom: 1px solid white;
 }
 
 .navbar-default .navbar-brand {
@@ -46,7 +47,7 @@ color: white;
   text-align: center;
   min-height: 100vh;
   background-color: #edf5f3;
-  background: url(background.jpg) 50% 0 fixed;
+  background: url(images/background.jpg) 50% 0 fixed;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -70,8 +71,7 @@ span.color-2 {
 }
 
 .homepage-section {
-  min-height: 100vh;
-  padding: 51px 0px;
+  padding: 100px 0px;
 }
 
 .homepage-section h2 {
@@ -86,6 +86,10 @@ span.color-2 {
 .even {
   background-color: white;
   color: black;
+}
+
+#about-us {
+  text-align: center;
 }
 
 .btn.color-1 {
@@ -103,6 +107,22 @@ span.color-2 {
   color: white;
   border-radius: 0;
 }
+
+.btn.color-2 {
+  background-color: transparent;
+  border: 1px solid white;
+  transition: 0.2s ease 0s;
+  color: white;
+  border-radius: 0;
+}
+
+.btn.color-2:hover, .btn.color-2:focus {
+  background-color: white;
+  border: 1px solid white;
+  transition: 0.2s ease 0s;
+  color: #326273;
+  border-radius: 0;
+}
 form {
   text-align: center;
 }
@@ -112,11 +132,12 @@ ul#signup {
 }
 
 .span3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 120px;
-  height: 30px;
-  color: black;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 10px 0;
+width: 100%;
+height: auto;
+color: black;
 }
 
 .su {
@@ -137,15 +158,22 @@ ul#signup {
   font-size: 22px;
 }
 
-#imgmentees {
-  margin-top: 50px;
+#imgmentees, #imgcode {
+  margin: 10px;
   border: 2px solid white;
-  border-radius: 20px;
 }
 
 #imgmentors {
-  margin-top: 50px;
+  margin: 10px;
   border: 2px solid #326273;
-  border-radius: 20px;
+}
+
+.homepage-images {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0px;
 }
 

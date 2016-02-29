@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css" />
-
-
     <link href="main.css" rel="stylesheet">
 </head>
 
@@ -33,10 +31,11 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about-us">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#mentees">Mentees</a></li>
+                    <li><a href="#mentors">Mentors</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#join">Join</a></li>
+                    <li><a href="#join">Sign Up</a></li>
                 </ul>
             </div>
         </div>
@@ -76,8 +75,12 @@
             <div class="container">
                 <div class="row">
                     <h2>Mentees</h2>
+                    <div class="col-md-6">
+                    <center><img id="imgmentees" src="images/computer.jpg" alt="girls" class="homepage-images"></center>
+                    </div>
+                    <div class="col-md-6">
                     <p>If you're hoping to improve your coding skills and are getting stuck on something you can't find help with anywhere, set up a request and a mentor will come to the rescue. Many build great relationships with their mentors - we've even had mentees go on to become mentors themselves!</p>
-                    <center><img id="imgmentees" src="20.jpg" alt="girls" style="width:480;"></center>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,8 +88,12 @@
             <div class="container">
                 <div class="row">
                     <h2>Mentors</h2>
+                    <div class="col-md-6">
                     <p>Mentors are the best thing about our project - they give up their time to help budding coders find their way! If you have great skills in any coding language, or maybe you're even a full stack developer, we'd love for you to sign up. You'll help others make their projects great, and may even learn something yourself along the way.</p>
-                    <center><img id="imgmentors" src="38.jpg" alt="girl" style="width:480;"></center>
+                    </div>
+                    <div class="col-md-6">
+                    <center><img id="imgmentors" src="images/girls.jpg" alt="girl" class="homepage-images"></center>
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,35 +101,33 @@
             <div class="container">
                 <div class="row">
                     <h2>Sign-up</h2>
+                    <div class="col-md-6">
+                    <center><img id="imgcode" src="images/code.jpg" alt="girl" class="homepage-images"></center>
+                    </div>
+                    <div class="col-md-6">
                     <form>
                     <ul id='signup'>
-                    <li><label class="su">First Name</label>
-                    <br />
-                    <input type="text" name="firstname" class="span3"></li>
-                    <li><label class="su">Last Name</label>
-                    <br />
-                    <input type="text" name="lastname" class="span3"></li>
-                    <li><label class="su">Email Address</label>
-                    <br />
-                    <input type="email" name="email" class="span3"></li>
-                    <li><label class="su">Username</label>
-                    <br />
-                    <input type="text" name="username" class="span3"></li>
-                    <li><label class="su">Password</label>
-                    <br />
-                    <input type="password" name="password" class="span3"></li>
-                    <li><label class="su"><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label>
-                    <br />
-                    <input type="submit" value="Sign up" class="btn btn-primary"></li>
+                    <li><label for="firstname" class="su">First Name</label>
+                    <input type="text" id="firstname" name="firstname" class="span3"></li>
+                    <li><label for="lastname" class="su">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" class="span3"></li>
+                    <li><label for="email" class="su">Email Address</label>
+                    <input type="email" id="email" name="email" class="span3"></li>
+                    <li><label for="username" class="su">Username</label>
+                    <input type="text" id="username" name="username" class="span3"></li>
+                    <li><label for="password" class="su">Password</label>
+                    <input type="password" id="password" name="password" class="span3"></li>
+                    <li><label class="su"><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label></li>
+                    <li><input type="submit" value="Sign up" class="btn btn-primary color-2"></li>
                     <div class="clearfix"></div>
                     </ul>
                     </form>
+                    </div>
                 </div>
             </div>
         </div>
-        <hr>
         <footer>
-            <p>CodeCoach</p>
+            <p>© CodeCoach 2016</p>
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
