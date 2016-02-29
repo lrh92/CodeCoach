@@ -129,6 +129,7 @@ form {
 
 ul#signup {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .span3 {
@@ -170,6 +171,11 @@ color: black;
 
 .homepage-images {
   width: 100%;
+}
+
+main {
+  margin-top: 51px;
+  text-align: center;
 }
 
 footer {
